@@ -1,7 +1,7 @@
 const submitbtn = document.getElementById("submitbtn");
 const cityname = document.getElementById('cityname');
 const city_name = document.getElementById('city_name');
-const temp = document.getElementById('temp');
+const temp = document.getElementById('temp_real_val');
 const temp_status = document.getElementById('temp_status');
 
 // data hide trick
