@@ -17,6 +17,19 @@
                       <input type="submit" value="search" id="submitbtn">
                   </form>
               </div>
+              <div class="tempInformation">
+                  <div class="top_layer">
+                      <p id="day">Tuesday</p>
+                      <p id="today_date">15th Jun</p>
+                  </div>
+                  <div class="main_layer">
+                      <p id="city_name">Kol</p>
+                      <div class="middle_layer data_hide">
+                          <p id="temp"><span>0</span><sup>o</sup>C</p>
+                          <p id="temp_status"><i class="fa fa-cloud"></i></p>
+                      </div>
+                  </div>
+              </div>
           </div>
       </div>
     </div>
@@ -24,5 +37,8 @@
                  
     <!-- footer -->
     {{>footer}}
+
+    {{!-- js code  --}}
+    <script src="js/main.js"></script>
 </body>
 </html>
